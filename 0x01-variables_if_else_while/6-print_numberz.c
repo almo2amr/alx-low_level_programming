@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Entry Point
+ * main - Entry point
  *
- * description: main function
+ * Description: it prints from 0 to 9 using putchar
  *
  * Return: Always 0 (Success)
 */
@@ -14,9 +14,10 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		putchar(digit . '0');
+		putchar(digit + '0');
 		digit++;
 	}
 	putchar('\n');
+
 	return (0);
 }
