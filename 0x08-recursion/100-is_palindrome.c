@@ -8,7 +8,7 @@
  * Return: integer
 */
 int is_palindrome(char *s);
-int chaeck(int *s, int b, int e, int m);
+int check(char *s, int b, int e, int m);
 int last_index(char *s)
 {
 	int n = 0;
@@ -44,7 +44,7 @@ int is_palindrome(char *s)
  *
  * Return: returns 1 if it is a palindrome, otherwise return 0
 */
-int check(int *s, int b, int e, int m)
+int check(char *s, int b, int e, int m)
 {
 	if ((b == e && m != 0) || (b == e + 1 && m == 0))
 	{
