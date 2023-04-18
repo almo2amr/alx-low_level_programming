@@ -1,20 +1,20 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
  * _strlen - it is a function that returns a length of string
  *
  * @st: string to get its length
  *
- * Return: length (l) of string (@st)
+ * Return: length (len) of string (@st)
 */
 int _strlen(const char *st)
 {
-	int l = 0;
+	int len = 0;
 
 	while (*st++)
-		l++;
-	return (l);
+		len++;
+	return (len);
 }
 
 /**
