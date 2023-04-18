@@ -8,7 +8,7 @@
  *
  * Return: if success return the copied string, otherwise return NULL
 */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i = 0, length = 0;
 	char *cp;
