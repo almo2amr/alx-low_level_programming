@@ -4,15 +4,15 @@
 /**
  * _strlen - it is a function that returns a length of string
  *
- * @st: string to get its length
+ * @s: string to get its length
  *
- * Return: length (len) of string (@st)
+ * Return: length (len) of string (@s)
 */
-int _strlen(const char *st)
+int _strlen(const char *s)
 {
 	int len = 0;
 
-	while (*st++)
+	while (*s++)
 		len++;
 	return (len);
 }
@@ -28,11 +28,11 @@ int _strlen(const char *st)
 */
 char *_strcopy(char *dest, char *src)
 {
-	int r;
+	int i;
 
-	for (r = 0; src[r]; r++)
-		dest[r] = src[r];
-	desty[r] = '\0';
+	for (i = 0; src[i]; i++)
+		dest[i] = src[i];
+	desty[i] = '\0';
 
 	return (dest);
 }
