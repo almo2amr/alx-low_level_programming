@@ -74,5 +74,5 @@ char **strtow(char *str)
 		else
 			e++;
 	}
-	return (words);
+	return (array);
 }
